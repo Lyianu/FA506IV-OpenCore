@@ -41,3 +41,4 @@ Tested on Ventura and Sonoma without major issue.
 
 - For some reason `NootedRed` doesn't work while installing/updating, please replace `NootedRed` with `WhateverGreen` during installing/updating.
 - If you want to use iServices like iCloud, follow [this guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios).
+- By default 512MB VRAM is allocated to the iGPU, You're likely to run into issues with that. I recommend you changing it to 4G to avoid instabilities. If you can't change it from the BIOS, you can use [UMAF](https://github.com/DavidS95/Smokeless_UMAF), you should read UMAF instructions carefully before using it.
