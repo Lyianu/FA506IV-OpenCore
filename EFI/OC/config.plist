@@ -1702,7 +1702,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>-wegnoegpu -v debug=0x100 keepsyms=1 alcid=13 npci=0x2000 -lilubetaall revblock=media -NRedDPDelay</string>
+				<string>-wegnoegpu -v debug=0x100 keepsyms=1 alcid=23 npci=0x2000 -lilubetaall revblock=media -NRedDPDelay</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
